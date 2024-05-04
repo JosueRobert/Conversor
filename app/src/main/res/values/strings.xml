@@ -1,0 +1,45 @@
+<resources>
+
+
+        <style name="CustomTabText" >
+            parent="Widget.Design.TabLayout.Tab">
+            <item name="android:textSize">100sp</item>
+
+        </style>
+    <style name="CustomArrayText">
+        <item name="android:typeface"> serif</item>
+        <item name="android:textSize">100dp</item>
+    </style>
+    <string name="app_name">Conversor</string>
+    <string-array name="spnLongitud">
+        <item>Metro</item>
+        <item>CM</item>
+        <item>Pulgada</item>
+        <item>PIE</item>
+        <item>VARA</item>
+        <item>Yarda</item>
+        <item>Km</item>
+        <item>Milla</item>
+    </string-array>
+    <string-array  name="spnAlmacenamiento">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Petabyte</item>
+        <item>Exabyte</item>
+        <item>Zettabyte</item>
+        <item>Yotta</item>
+    </string-array>
+    <string-array name="spnMonedas">
+        <item>Dolar EUU</item>
+        <item>Euro</item>
+        <item> Rupias India</item>
+        <item> Yenes Japon</item>
+        <item> Rublo Rusia</item>
+        <item> Real Brazil </item>
+        <item> Franco suizo </item>
+    </string-array>
+</resources>
